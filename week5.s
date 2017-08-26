@@ -19,7 +19,7 @@ addi $t1, $t1, 3000
 mult $t0, $t1 # (HI, LO) <- $t0 * $t1
 
 mfhi $t0
-sw   $t0, (x + 4)
+sw   $t0, (x + 4) # assume little endian
 
 mflo $t0
 sw   $t0, x
