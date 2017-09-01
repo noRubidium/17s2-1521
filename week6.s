@@ -122,3 +122,6 @@ prod:
     lw   $fp, ($sp)
     addi $sp, $sp, 4
     jr   $ra
+
+
+# https://courses.cs.washington.edu/courses/cse410/09sp/examples/MIPSCallingConventionsSummary.pdf
